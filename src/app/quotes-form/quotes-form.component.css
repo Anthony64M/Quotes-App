@@ -1,0 +1,17 @@
+.container {
+    padding-top: 0%;
+    padding-bottom: 7%;
+    margin: 7%, 0, 3%, 0;
+    
+}
+.container .row{
+    width: 450%;
+    background-image: url("/src/assets/backg.jpg");
+    color: white;
+}
+
+.row{
+    padding-top: 3%;
+}
+
+
