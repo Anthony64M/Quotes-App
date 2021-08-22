@@ -1,0 +1,7 @@
+<p>Posted: {{quote.datePosted|dateCount}} days ago <br> by: {{ quote.name}} </p>
+<button class="btn btn-success btnspace" (click)='like()' type="button" name="button" id="like">
+    <span class="fa fa-thumbs-up"></span> Likes: {{likes}} </button>
+
+<button class="btn btn-danger btnspace" (click)='hate()' type="button" name="button"  id="dis">
+    <span class="fa fa-thumbs-down"></span> Dislikes: {{dislikes}}</button>
+<button class="btn btn-danger" (click)='quoteComplete(true)' id="del"> Delete </button>
