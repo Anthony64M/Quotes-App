@@ -5,3 +5,4 @@ export class Quote {
       this.showInfo=false;
     }
 }
+
