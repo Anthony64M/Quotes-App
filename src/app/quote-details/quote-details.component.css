@@ -17,7 +17,8 @@
   color: white;
 }
 hr{
-  background-color: darkcyan;
+  background-image: url("/src/assets/backg.jpg");
+
 }
 #buttons{
   margin-top: 5%;

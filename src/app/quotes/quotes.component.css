@@ -1,3 +1,7 @@
+*{
+  background-image: url("/src/assets/backg.jpg");
+
+}
 h1{
   font-family: 'Special Elite', cursive;
   color: white;
@@ -13,7 +17,8 @@ span{
   font-family: 'Architects Daughter', cursive;
 }
 .overlay{
-  background-color:rgba(0, 225, 255, 0.301);
+  background-color: darkgrey;
+  background-image: url("/src/assets/backg.jpg");
   border-radius: 5px;
   margin-top:4%;
   margin-left: 4%;
@@ -24,7 +29,7 @@ span{
   padding-bottom: 5%;
 }
 #name{
-  color:rgb(43, 214, 0);
+  color:chartreuse;
   font-weight: 700;
 }
 .all-cards{
@@ -45,7 +50,7 @@ span{
   font-size: 14px;
 }
 #datecolor{
-  color: green;
+  color: chartreuse;
   font-weight: 700;
 }
 .card-text{
@@ -53,3 +58,9 @@ span{
   font-weight: 570;
   font-size: 18px;
 }
+/* .jumbotron-fluid{
+  display: flex;
+  overflow: hidden;
+  background-image: url("/src/assets/backg.jpg");
+
+} */
